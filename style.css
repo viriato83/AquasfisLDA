@@ -1,0 +1,114 @@
+* {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+         
+        }
+
+        .header {
+            background-color: rgba(255, 255, 255, 0.877);
+            
+           
+            height: 80px;
+            text-align: center;
+            padding-top: 1px;
+            margin-bottom: 55px;
+        }
+
+        .logo1 {
+            width: auto;
+            height:80px;
+            margin-top: 2px;
+            border-radius: 10%;
+            border-color: #b5b2c7;
+        }
+
+        .conteudo {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        } 
+
+        .text-container {
+            width: 48%;
+        }
+
+        h1 {
+            color: #5449f0;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #b7c6e5;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .img2 {
+            background-size: cover;
+            background-position: right; /* Ajusta a posição da imagem */
+            width: 48%;
+            margin-top: 20px;
+            height: 400px;
+            float: right;
+
+            
+          
+        }
+
+        .card {
+            background-color: #b7c6e5;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        li {
+            list-style-position: inside;
+            line-height: 30px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            color: #3845b9;
+        }
+
+        .botao {
+            text-decoration: none;
+            background-color: #20486d;
+            color: rgb(255, 255, 255);
+            border-radius: 20px;
+            font-weight: 400;
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        p {
+            margin-bottom: 40px;
+        }
+
+        a:hover {
+            background-color: #111329;
+        }
+
+        /* Media query para ajustar o layout em telas menores */
+        @media (max-width: 768px) {
+            .conteudo {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .text-container,
+            .img2 {
+                width: 100%;
+            }
+        }
+     
